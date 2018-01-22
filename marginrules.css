@@ -1,0 +1,156 @@
+/*.MARGINRULE areas */
+
+.bookpreview {
+  position: relative;
+}
+
+.bookpage {
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+.MARGINRULEtop-left,
+.MARGINRULEtop-center,
+.MARGINRULEtop-right,
+.MARGINRULEtop-right-corner,
+.MARGINRULEright-top,
+.MARGINRULEright-middle,
+.MARGINRULEright-bottom,
+.MARGINRULEbottom-right-corner,
+.MARGINRULEbottom-right,
+.MARGINRULEbottom-center,
+.MARGINRULEbottom-left,
+.MARGINRULEbottom-left-corner,
+.MARGINRULEleft-bottom,
+.MARGINRULEleft-middle,
+.MARGINRULEleft-top,
+.MARGINRULEtop-left-corner {
+  box-sizing: border-box;
+}
+
+.MARGINRULEtop-left {
+  font-size: 8px;
+  font-style: italic;
+  position: absolute;
+  top: 0;
+  text-align: center;
+  border: 1px solid pink;
+}
+
+.MARGINRULEtop-center {
+  font-size: 8px;
+  font-style: italic;
+  position: absolute;
+  top: 0;
+  text-align: center;
+  border: 1px solid pink;
+}
+
+.MARGINRULEtop-right {
+  font-size: 8px;
+  font-style: italic;
+  position: absolute;
+  top: 0;
+  text-align: center;
+  border: 1px solid pink;
+}
+
+.MARGINRULEtop-left span,
+.MARGINRULEtop-center span,
+.MARGINRULEtop-right span,
+.MARGINRULEtop-right-corner span,
+.MARGINRULEtop-left-corner span {
+  vertical-align: text-top; /* for bottom alignment */
+}
+
+.MARGINRULEtop-right-corner {
+  font-size: 8px;
+  font-style: italic;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: center;
+  border: 1px solid pink;
+}
+.MARGINRULEright-top {
+  position: absolute;
+  right: 0;
+  border: 1px solid pink;
+}
+.MARGINRULEright-middle {
+  position: absolute;
+  right: 0;
+  border: 1px solid pink;
+}
+.MARGINRULEright-bottom {
+  position: absolute;
+  right: 0;
+  border: 1px solid pink;
+}
+.MARGINRULEbottom-right-corner {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border: 1px solid pink;
+}
+.MARGINRULEbottom-right {
+  font-size: 8px;
+  vertical-align: top;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  border: 1px solid pink;
+}
+
+.MARGINRULEbottom-center {
+  font-size: 8px;
+  vertical-align: top;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  border: 1px solid pink;
+}
+
+.MARGINRULEbottom-left {
+  font-size: 8pt;
+  vertical-align: top;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  border: 1px solid pink;
+}
+
+.MARGINRULEbottom-right span,
+.MARGINRULEbottom-center span,
+.MARGINRULEbottom-left span {
+  vertical-align: top; /* for bottom-aligned text, use text-top */
+  /*border: 1px solid green;*/
+}
+
+.MARGINRULEbottom-left-corner {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border: 1px solid pink;
+}
+.MARGINRULEleft-bottom {
+  position: absolute;
+  left: 0;
+  border: 1px solid pink;
+}
+.MARGINRULEleft-middle {
+  position: absolute;
+  left: 0;
+  border: 1px solid pink;
+}
+.MARGINRULEleft-top {
+  position: absolute;
+  left: 0;
+  border: 1px solid pink;
+}
+.MARGINRULEtop-left-corner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid pink;
+}
